@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    .container{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container2{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .body{
+      background-color: #EADBC8;
+    }
+
+    .main{
+      display: flex;
+    }
+
+    .grid{
+      display: grid;
+      border: 9px solid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 9px;
+      background-color: black;
+    }
+
+    .item{
+      background-color: beige;
+    }
+
+    .red{
+      background-color: #E72F24;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      height: 414px;
+      width: 320px;
+    }
+
+    .white1{
+      background-color: #F0F1EC;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 5;
+      height: 414px;
+      width: auto;
+    }
+
+    .white2{
+      background-color: #F0F1EC;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      height: 285px;
+      width: 320px;
+    }
+
+    .white3{
+      background-color: #F0F1EC;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      height: 285px;
+      width: 351px;
+    }
+
+    .blue{
+      background-color: #004592;
+      height: 130px;
+      width: auto;
+      border-bottom: 10px solid;
+    }
+
+    .white4{
+      background-color: #F0F1EC;
+      grid-row-start: 3;
+      grid-row-end: 5;
+      height: auto;
+      width: auto;
+    }
+
+    .white4{
+      background-color: #F0F1EC;
+    }
+
+    .yellow{
+      background-color: #F9D01E;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+
+    .grey{
+      background-color: #232629;
+    }
+
+    .text{
+      width: 758px;
+      text-align: center;
+      margin: 0;
+      padding: 1%;
+    }
+
+    .text2{
+      width: 758px;
+      text-align: center;
+      margin: 0;
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+  
+  <div class="container">
+  <div class="grid">
+    <div class="item red"></div>
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item white3"></div>
+    <div class="item blue"></div>
+    <div class="item white4"></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div> 
+    <div class="item grey"></div>
+  </div>
+  </div>
+
+  <div class="container2">
+  <h2 class="text1">PIET MONDRIAN</h2>
+  </div>
+
+  <div class="container2">
+    <P class="text2">COMPOSITION</P>
+  </div>
+  
+
+</body>
+
+</html>
